@@ -1,0 +1,25 @@
+/* Убираем отступы по умолчанию */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Убираем прокрутку */
+}
+
+/* Контейнер для графика должен занимать все доступное пространство */
+#chart-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Стили для сообщения о загрузке */
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #888;
+}
