@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
-    const chart = LightweightCharts.createChart(chartContainer, chartProperties);
+    const chart = createChart(chartContainer, chartProperties);
     const candlestickSeries = chart.addCandlestickSeries({
         upColor: '#00b760',
         downColor: '#ff4949',
