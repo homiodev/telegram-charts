@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const ticker = urlParams.get('ticker') || 'AAPL'; // По умолчанию AAPL, если тикер не передан
 
     // --- ВАШ API КЛЮЧ ---
-    const apiKey = 'ВАШ_КЛЮЧ_ОТ_ALPHA_VANTAGE'; 
+    const apiKey = 'T8XRRD15SJUJ2QZM'; 
     // ВАЖНО: Хранить ключ в публичном JS - не безопасно для коммерческих проектов.
     // Для личного бота это приемлемый риск.
 
